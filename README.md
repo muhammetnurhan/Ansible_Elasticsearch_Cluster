@@ -12,7 +12,7 @@
 ## Run
 
 ```
-ansible-playbook es-cluter.yml
+ansible-playbook deploy.yml
 ```
 
 
