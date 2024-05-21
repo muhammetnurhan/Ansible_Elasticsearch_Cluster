@@ -1,0 +1,2 @@
+# elasticsearch join token file to be used on worker nodes.
+enrollment_token_file: enrollment_token.txt
