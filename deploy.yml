@@ -1,0 +1,3 @@
+- import_playbook: playbooks/Create.yml
+- import_playbook: playbooks/Master.yml
+- import_playbook: playbooks/Nodes.yml
