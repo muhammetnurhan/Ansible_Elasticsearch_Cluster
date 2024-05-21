@@ -1,0 +1,20 @@
+[ESMaster]
+192.168.1.20
+
+[ESNodes]
+192.168.1.20
+192.168.1.21
+192.168.1.22
+
+
+# Connection settings : Change depending on your target servers
+[all:vars]
+cluster_name='test-es-cluster'
+node_name_prefix='es-node-'
+es_version='8.13.4'
+ansible_connection='ssh'
+ansible_ssh_port='22'
+ansible_user='user'
+ansible_become=no
+ansible_ssh_pass='password'  # "sshpass" package is required for use "ansible_ssh_pass"
+ansible_python_interpreter='/usr/bin/python3'  # is required for use python3
